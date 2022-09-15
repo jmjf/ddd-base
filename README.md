@@ -6,7 +6,9 @@ Base classes for DDD and clean architecture in TypeScript.
 
 This repo is a collection of classes I've built while learning about Domain Driven Design and Clean Architecture principles in TypeScript by reading and coding. Different cases may need more or less or adjustments to what's here, but it's a decent foundation based on learning I've been doing.
 
-I've left a couple of classes related to [Prisma](https://prisma.io) and [Fastify](https://www.fastify.io/) in the repo. They may be less useful if you aren't using those libraries/frameworks.
+I've left a couple of classes related to [Express](https://expressjs.com) and [Fastify](https://www.fastify.io/) in the repo. The base controllers assume [pino](https://getpino.io) as a logger.
+
+`package.json` includes modules needed to fix import errors. Mix, match, adjust as needed. But this repo is a reference, not a boilerplate project. It is missing parts like eslint and hasn't segregated dev and non-dev dependencies.
 
 ## Where did you come up with all this?
 

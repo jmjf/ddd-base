@@ -1,0 +1,28 @@
+{
+  "name": "ddd-base",
+  "version": "1.0.0",
+  "description": "Base classes for DDD and clean architecture in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmjf/ddd-base.git"
+  },
+  "author": "jmjf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmjf/ddd-base/issues"
+  },
+  "homepage": "https://github.com/jmjf/ddd-base#readme",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.7.18",
+    "express": "^4.18.1",
+    "fastify": "^4.6.0",
+    "pino": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  }
+}
